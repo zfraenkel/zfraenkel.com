@@ -233,15 +233,31 @@ ul {
 header {
     margin-left: 256px;
 }
+@media (max-width: 1500px) {
+    header {
+        margin-left: 32px;
+    }
+}
 
 section {
     margin-left: 256px;
+    padding-right: 8px;
     margin-top: 32px;
+}
+@media (max-width: 1500px) {
+    section {
+        margin-left: 32px;
+    }
 }
 
 footer {
     margin-left: 256px;
     margin-top: 64px;
+}
+@media (max-width: 1500px) {
+    footer {
+        margin-left: 32px;
+    }
 }
 
 .header-bar {
@@ -252,14 +268,13 @@ footer {
 
 .offer-content {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .offer-content-item {
     width: 320px;
     border: 1px solid var(--light-grey-color);
     padding: 8px;
-}
-
-.offer-content-item + .offer-content-item {
-    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 24px;
 }
