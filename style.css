@@ -275,7 +275,7 @@ footer {
 .offer-content-item {
     width: 320px;
     border: 1px solid var(--light-grey-color);
-    padding: 8px;
+    padding: 8px 16px;
     margin-right: 24px;
     margin-bottom: 24px;
 }
