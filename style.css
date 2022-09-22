@@ -279,3 +279,11 @@ footer {
     margin-right: 24px;
     margin-bottom: 24px;
 }
+
+.who-item {
+    width: 320px;
+    border: 1px solid var(--light-grey-color);
+    padding: 10px 16px;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
