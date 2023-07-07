@@ -1,5 +1,8 @@
 #!/usr/local/bin/bash
 
+# push origin
+git push
+
 # copy over nginx conf
 scp ./zfraenkel.com.conf root@evey.sirodoht.com:/etc/nginx/sites-available/
 
