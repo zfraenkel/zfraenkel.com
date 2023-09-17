@@ -150,8 +150,9 @@ summary {
 :root {
     --link-color: #1175e2;
     --ascent-color: #006cdf;
-    --dark-grey-color: #636363;
+    --dark-grey-color: #595959;
     --pink-color: #f18888;
+    --light-pink-color: #fdd;
 }
 
 html,
@@ -235,7 +236,6 @@ footer {
 }
 
 span {
-    background: var(--pink-color);
-    color: white;
+    background: var(--light-pink-color);
     padding: 0 1px;
 }
