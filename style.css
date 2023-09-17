@@ -237,5 +237,6 @@ footer {
 
 span {
     background: var(--light-pink-color);
+    color: black;
     padding: 0 1px;
 }
