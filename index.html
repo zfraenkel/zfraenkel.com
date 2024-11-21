@@ -7,8 +7,45 @@
         <meta name="description" content="Zermelo Fraenkel is a software consulting company.">
         <meta name="keywords" content="software, consultancy, london">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
         <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAG9SURBVHgB7ZbBbcIwFIafQyU40WSChg0YATZgg9IJ4AIELqQnEi4tG8AEbSeATlJvEFBPSMTuCzUQQkKdyi6H8kkRtvPk99u//QjAlf8OAY0ErmvelEotTkgVODejsZCxiTUYvO5ibkATwXhcNRibMwATkx9eEDKLx2kTgMlfIEqOYPoF5/xdvKLaBQS+38BV26I7NR3nISvWAB1wXts1mWFMzoXqEmDu22G4hD8XkIOTa7jy/SdcQQMkIYVCu9zpvAWjkW0QMhfDpngi6D7YMJ5vu90jS04OIWPMwolskCTcbKxY104J2Y+xMLSSL9NuwZRxvoAMUNwd/riiG/n7HbteL1mxWI+auK0tQsh2F3Gu6AZQEU+T8+WuhCvP+wCxKkzSLPd6s2QM2jFFofdCQMXq92nWfLkO4afnDXfJ0apJWvK8SAvAVTXZYesp1vM2KEBKgDjhQ9Fd4rbWQRFSpVhcLztqo+9ty3EoKOLHHdDhu7QAXb5LCUj4TlX6HifzDCR8d1X6fpQnbfDId84fVfse52QHEr5vSy2O1c5NgpVuAaoEFLCExr7gzNg/XBYUnwr8kot/D1y5cnG+APMApOZep9I3AAAAAElFTkSuQmCC">
+        <style>
+            :root {
+                --link-color: #1175e2;
+                --ascent-color: #006cdf;
+                --dark-grey-color: #595959;
+                --pink-color: #f18888;
+                --light-pink-color: #fdd;
+            }
+            html, body {
+                margin: 0;
+                font-family: sans-serif;
+                font-size: 14px;
+                line-height: 1.5;
+                color: var(--dark-grey-color);
+            }
+            a { text-decoration: none; color: var(--link-color); }
+            a:hover { text-decoration: underline; }
+            h1 { font-weight: 500; color: var(--pink-color); margin: 0.4rem 0 1rem; }
+            h2 { font-weight: 500; color: #000; }
+            h3 { font-weight: 500; color: #000; margin: 0; }
+            p { margin: 0.4rem 0; }
+            ul { padding-left: 1.8rem; }
+
+            header { margin-left: 16rem; }
+            @media (max-width: 1500px) {
+                header { margin-left: 1rem; }
+            }
+            section { margin-left: 16rem; margin-top: 2rem; padding-right: 1rem; max-width: 32rem; }
+            @media (max-width: 1500px) {
+                section { margin-left: 1rem; }
+            }
+            footer { margin-left: 16rem; margin-top: 4rem; margin-bottom: 2rem; max-width: 32rem; }
+            @media (max-width: 1500px) {
+                footer { margin-left: 1rem; }
+            }
+            .header-bar { width: 19rem; height: 0.8rem; background: var(--pink-color); }
+            span { background: var(--light-pink-color); color: black; padding: 0 1px; }
+        </style>
     </head>
     <body>
 
@@ -55,10 +92,9 @@
         <section>
             <h2>Who</h2>
             <p>
-                Zermelo Fraenkel LTD is currently one person. Theodore Keloglou
-                has a decade of professional experience working with tech
-                startups ranging between 3 and 1000 employees. Read more about
-                his experience on his
+                Theodore Keloglou has more than a decade of professional experience
+                working with tech startups ranging between 1 and 7000 employees. Read
+                more about his experience on his
                 <a href="https://www.linkedin.com/in/sirodoht/">LinkedIn</a>
                 page.
             </p>
@@ -73,7 +109,9 @@
         </section>
 
         <footer>
-            Zermelo Fraenkel LTD is registered in England and Wales under company number 13172684.
+            <p>
+                Zermelo Fraenkel LTD is registered in England and Wales under company number 13172684.
+            </p>
         </footer>
     </body>
 </html>
